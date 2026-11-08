@@ -1,6 +1,6 @@
 cask "tracker-for-github" do
-  version "1.1.0"
-  sha256 "5ab1b92416e7d1b505d054fa2cdc8ac5a46bb2ed29129094f19ac4101b14cd42"
+  version "1.1.1"
+  sha256 "68212063c9c73e6c990bb552c2150e3b5d9277477a1bb2bc563ddc81001cbe66"
 
   url "https://github.com/garoknows/github-tracker/releases/download/v#{version}/Tracker-for-GitHub-#{version}.dmg"
   name "Tracker for GitHub"
