@@ -12,11 +12,15 @@ cask "tracker-for-github" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Tracker for GitHub.app"
 
+  uninstall quit: "io.github.garoknows.tracker"
+
   zap trash: [
+    "~/Library/Application Scripts/io.github.garoknows.tracker",
+    "~/Library/Application Scripts/io.github.garoknows.tracker.widgets",
     "~/Library/Containers/io.github.garoknows.tracker",
     "~/Library/Containers/io.github.garoknows.tracker.widgets",
     "~/Library/Group Containers/*.io.github.garoknows.tracker",
