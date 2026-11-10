@@ -10,7 +10,7 @@ brew install --cask garoknows/tap/wiggleroom
 | Cask | App |
 |---|---|
 | `tracker-for-github` | [Tracker for GitHub](https://github.com/garoknows/github-tracker): GitHub contribution graph and activity overview in your Mac menu bar and widgets |
-| `wiggleroom` | [Wiggleroom](https://github.com/garoknows/wiggleroom): Claude plan usage and reset times in Notification Center |
+| `wiggleroom` | [Wiggleroom](https://github.com/garoknows/wiggleroom): Claude Code and Codex plan limits in Notification Center |
 
 The cask points at the signed, notarized DMG from each GitHub release and is updated for every new version.
 
