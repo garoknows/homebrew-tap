@@ -1,6 +1,6 @@
 cask "wiggleroom" do
-  version "0.2.0"
-  sha256 "1adb784fdca328132e4c47e5b489e96674dc5dc84d51fcecf49ab0090730b6e6"
+  version "0.2.2"
+  sha256 "bdf3898bd6f0c88760aecd28813d7aa946dbf310d113b6dcb08d80810f9f8d0d"
 
   url "https://github.com/garoknows/wiggleroom/releases/download/v#{version}/Wiggleroom-#{version}.dmg"
   name "Wiggleroom"
